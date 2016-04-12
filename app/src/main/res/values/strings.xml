@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">BottlePop</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="err_msg_empty">Field can not left blank!</string>
+    <string name="err_msg_email">Please enter valid E-mail Address!</string>
+    <string name="err_msg_empty_email">Please enter E-Mail!</string>
+    <string name="err_msg_empty_club_name">Please enter Club Name!</string>
+    <string name="err_msg_number">Please enter valid Phone Number!</string>
+    <string name="err_msg_empty_number">Please enter Phone Number!</string>
+    <string name="err_msg_empty_name">Please enter Name!</string>
+    <string name="err_msg_empty_time">Please enter date of booking!</string>
+    <string name="err_msg_empty_spend">Please enter your expected Spends!</string>
+    <string name="err_msg_spend_amount">Spend must be greater than amount!</string>
+    <string name="err_msg_visitors_count">Visitors count must be greater than 0!</string>
+    <string name="openDrawer"></string>
+    <string name="about_app">
+        "BottlePop is an exclusive mobile application that gets you access to curated nightlife and special events around the world. \n \nBacked by a world Class technology company and a founding team that's known for there champagne popping and vodka guzzling habits you can rest assured that you arein good hands. \n \nOur new ranking algorithm puts you against the bottle popping elite. Now you can see where you stand when it comes to being the king of Nightlife! \n \nGo ahead and book the club of your choice and have a night filled with champagne popping bottles!"
+    </string>
+    <string name="concierge_text">
+        "Having previously used American \n express centurion card and vertu \n smartphone concierges, Bottlepop \n founders know what it takes to \n deliver world class service \n Our 24/7 Concierge will give you \n access to whatever you need, \n whenever you need."</string>
+<string name="how_it_works_header">We at BottlePop provide service for booking tables at London’s most prominent
+
+nightclubs.  Once the reservation is made through the app our personal
+
+concierge will contact you on the details provided by you and set you out for the
+
+night with any special requirements that you may have. Once confirmed with the
+
+club, we will get in touch with you to inform if the reservation has been
+
+confirmed and we guarantee a crazy night with bottles popping all around.\n\n
+Keep the bottles popping and the parties rocking!!! </string>
+    <string name="how_it_works_policies">
+       <!--<![CDATA[<html>--> Our Policies:\n\n
+1. We provide a service to book tables on your behalf. Until we haven’t contacted
+
+you personally and got a response from you, please note your table will not be
+
+booked at the club. \n\n
+2. Bottlepop is not responsible for anything that happens inside the club. Our
+
+main responsibility is to reserve a table for our clients at a location of their
+
+choice. \n\n
+3. Access to the exclusive clubs listed is restricted to the club rules and entry
+
+policy. The main requirements to get access to all the listed clubs are as follows:\n\n
+
+• Age 18+  (Sometimes may vary depending on the club).\n\n
+
+• Identity proof (photo ID card, passport or driver license).\n\n
+
+• Dress-code (Ladies - sexy/trendy/smart with heels, NO flat shoes, sandals or flip flops. Gents: smart/elegant, shirt preferred, no sportswear, caps and trainers).\n\n
+
+• Well behaved individuals (no drunk people, no drinks or bottles outside the club).\n\n
+          4. The clubs management has the right to refuse entry if the requirements are not met.<!--</html>]]>-->
+    </string>
+    <string name="facebook_app_id">1761105827456612</string>
+</resources>

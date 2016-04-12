@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/style_color_primary_dark"
+    app:elevation="@dimen/default_elevation"
+    app:layout_scrollFlags="scroll|enterAlways"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOTTLEPOP"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:id="@+id/toolbar_title"
+        pixlui:typeface="Titillium-Bold.otf"/>
+</android.support.v7.widget.Toolbar>

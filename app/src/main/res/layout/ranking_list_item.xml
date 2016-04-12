@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="7dp">
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/txtRankCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@android:color/white"
+        pixlui:typeface="Titillium-Regular.otf" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/txtRankCircle"
+        app:civ_border_color="#ffd73a"
+        app:civ_border_width="2dp" />
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgProfile"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:typeface="serif"
+        pixlui:typeface="Titillium-Regular.otf" />
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/txtAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:typeface="serif"
+        pixlui:typeface="Titillium-Bold.otf" />
+
+</RelativeLayout>

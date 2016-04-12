@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="maddox">
+        <item>MADDOX</item>
+        <item>Wednesday - Saturday, 10pm - 4am</item>
+        <item>"Anyone just can't stumble into this Mayfair club, this spot has a strict members only policy - But with Bottlepop, Book your Table now and get yourself into a staggering venue Dance your way around the club with London's world-class party-harder’s to a soundtrack of top jams by the best Dj's in the business."
+        </item>
+        <item>3-5 Mill Street, London, W1S 2AU</item>
+        <item>3-5 Mill Street, London, W1S 2AU</item>
+        <item>£1000</item>
+        <item>maddox_1,maddox_2,maddox_3</item>
+    </array>
+
+    <array name="project">
+        <item>PROJECT</item>
+        <item>Tuesday, Friday, Saturday, 11pm - 4am</item>
+        <item>"Project London is a battlefield for the City's clubbing elite and plush party people looking for a night out with a little added extra. The project code is simple - dress to impress, and mean it. This exquisite palace will show you the perfect West London nightlife so book your table for a guaranteed entrance to this cheeky club."
+        </item>
+        <item>78 Wells Street, London, W1T 3QL</item>
+        <item>78 Wells Street, London, W1T 3QL</item>
+        <item>£1000</item>
+        <item>project_1,project_2,project_3</item>
+    </array>
+    <array name="circque_le_soir">
+        <item>CIRCQUE LE SOIR</item>
+        <item>MON | WED | THUR | FRI | SAT 11pm to 3 pm</item>
+        <item>"Champions of the London club awards in the years 2010, 2011 and 2012, we promise that you'll be awed at this Soho property. Party with a crowd of A-List celebs who take to this scandalous spot for the most stunning and invigorating excitement in this charming nightlife haven. Book your table now with our app and be ready for a night full of crazy memories. What happens in Cirque le Soir, stays in Cirque le Soir."
+        </item>
+        <item>15-21 Ganton Street, Soho, London, W1F 9BN</item>
+        <item>15-21 Ganton Street, Soho, London, W1F 9BN</item>
+        <item>£1000</item>
+        <item>cirque_1,cirque_2,cirque_3</item>
+    </array>
+
+    <array name="club_41">
+        <item>CLUB 41</item>
+        <item>Thursday, Friday 10:00 pm – 3:00 am, Saturday 11:00 pm – 3:00 am</item>
+        <item>"No.41 is a stylish and elegant members' nightclub in the heart of London, on Mayfair's esteemed Conduit Street. The club exudes opulence and glamour, with a 21st century twist. It is furnished in rich reds and golds and is complemented by stately works of art and grand chandeliers."
+        </item>
+        <item>41 Conduit St, London W1S 2YF</item>
+        <item>41 Conduit St, London W1S 2YF</item>
+        <item>£500</item>
+        <item>
+            club_1,club_2,club_3,club_4,club_5,club_6,club_7,club_8,club_9,club_10,club_11
+        </item>
+    </array>
+
+    <array name="bonboniere">
+        <item>BONBONIERE</item>
+        <item>Tuesday, Friday, Saturday 10:00 pm – 3:00 am</item>
+        <item>"Having only opened in November 2014 , Bonbonniere has fast become one of London’s premiere night spots, with the likes of Nicole Scherzinger, Paris Hilton, Jamie Fox,Snoop Dogg and Will. I. Am. now regulars when they are in town. The geniuses that created The Armani Hotel fashioned Bonbonniere as the embodiment of luxury, a decadent, sumptuous box of delights with the playful charm of a sweet shop to indulge all of your senses."
+        </item>
+        <item>23 Orchard St, London W1H 6HL</item>
+        <item>23 Orchard St, London W1H 6HL</item>
+        <item>£500</item>
+        <item>home_5</item>
+    </array>
+
+    <array name="libertine">
+        <item>LIBERTINE</item>
+        <item>WED| FRI| SAT| SUN 10:30 TO 3:00</item>
+        <item>"This top range exclusive club is perfect for a night out to feel something special and have a great night out in central London. Hit the dance floor and go crazy or pop some bottles at your table. Book your table now with bottlepop."
+        </item>
+        <item>4 Winsley Street, London, W1W 8HF</item>
+        <item>4 Winsley Street, London, W1W 8HF</item>
+        <item>£500</item>
+        <item>libertine_1,libertine_2,libertine_3,libertine_4</item>
+    </array>
+
+    <array name="dstkrt">
+        <item>DSTRKT</item>
+        <item>MON TO SATRUDAY 10:00 TO 3:00 AM</item>
+        <item>"DSTRKT is an award winning bar and club in Central London which has made a storm with it's modern cuisine and state of the art late night bar and club open until 3am. With famous visitors such as Chris Martin, Will Smith, Tom Cruise, Stella McCartney, Kim Kardashian, Jay Z, Rihanna, Drake, Bradley Cooper, Justin Bieber, Pamela Anderson to name a few amongst many others, you can party like them too at this prime location. Book a table with bottlepop to experience London on another level."
+        </item>
+        <item>9 Rupert St, London W1D 6DG, England</item>
+        <item>9 Rupert St, London W1D 6DG, England</item>
+        <item>£500</item>
+        <item>dstrkt_1,dstrkt_2,dstrkt_3</item>
+    </array>
+
+    <array name="boujis">
+        <item>BOUJIS</item>
+        <item>Monday - Friday, 10:30pm - 03:00am | Saturday - Sunday 10:00pm - 03:00am</item>
+        <item>"Get ready in your best outfit and don't forget those ravishing accessories, because this is the place to be seen. join the hottest and elitist crowds in town and dance to the most talented DJs in the business. Book a table at boujis tonight for yourself and let loose at the club."
+        </item>
+        <item>43 Thurloe Street, London, SW7 2LQ</item>
+        <item>43 Thurloe Street, London, SW7 2LQ</item>
+        <item>£500</item>
+        <item>boujis_1,boujis_2,boujis_3</item>
+    </array>
+
+    <array name="toy_room">
+        <item>TOY ROOM</item>
+        <item>Mon, Thu, Fri, Sat 10pm - 3am</item>
+        <item>"Toy Room Club near Piccadilly circus in London, an exclusive and intimate boutique venue located in the heart of Mayfair is stylish, high end club, located in the heart of Mayfair. Max Capacity at 180 people , this club focuses on offering an elite clubbing experience to the party-goers of London. Toy Room is exclusive R and B only club. Want a fun nightout then book a table tonight with bottlepop and be ready for a wild night."
+        </item>
+        <item>9 Swallow Street, Mayfair , W1B 4DE</item>
+        <item>9 Swallow Street, Mayfair , W1B 4DE</item>
+        <item>£500</item>
+        <item>toyroom_1,toyroom_2,toyroom_3,toyroom_4</item>
+    </array>
+
+    <array name="tonteria">
+        <item>TONTERIA</item>
+        <item>Mon, Thu, Fri, Sat 10:00pm - 03:00am</item>
+        <item>"This cocktail bar and late-night party haven is something out of a Mexican movie. Toy trains, Mexican style and tequila-laden cocktails are flowing at this clubbers joint. Tonteria Offers something different which every regular clubber is looking for so book a table for tonight only on Bottlepop and start popping those Dom’s."
+        </item>
+        <item>7-12 Sloane Sq, London SW1W 8EG</item>
+        <item>7-12 Sloane Sq, London SW1W 8EG</item>
+        <item>£500</item>
+        <item>tonteria_1,tonteria_2,tonteria_3</item>
+    </array>
+
+    <array name="drama">
+        <item>DRAMA</item>
+        <item>Friday - Saturday 10:00pm - 03:00am</item>
+        <item>"Whisky Mist located on Park Lane is a nightclub for the elite. Easily visible club by the considerable team of door staff, and the ever-present queue. Inside, you’ll probably either love or hate the bachelor-pad décor. Its dark theme and crushed velvet curtains, animal-prints, and black and purple furnishings give it a look, which cannot be missed. Book a table with bottlepop and start popping bottles tonight only at whiskey mist."
+        </item>
+        <item>35 Hertford Street, Mayfair, London, W1J 7SD</item>
+        <item>35 Hertford Street, Mayfair, London, W1J 7SD</item>
+        <item>£500</item>
+        <item>drama_1,drama_2,drama_3,drama_4</item>
+    </array>
+</resources>

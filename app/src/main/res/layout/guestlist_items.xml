@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FULL NAME -"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            pixlui:typeface="Titillium-Bold.otf" />
+
+        <com.neopixl.pixlui.components.edittext.EditText
+            android:id="@+id/edtFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:ems="20"
+            android:hint="Enter your name"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="#55ffffff"
+            pixlui:typeface="Titillium-Regular.otf" />
+    </LinearLayout>
+</LinearLayout>

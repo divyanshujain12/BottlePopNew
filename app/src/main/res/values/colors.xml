@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--colors.xml-->
+<resources>
+    <color name="style_color_primary">#22D3BE57</color>
+    <color name="style_color_primary_dark">#D6C058</color>
+    <color name="style_color_accent">#D3BE57</color>
+
+    <color name="fab_color_pressed">#D3BE57</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="text_like_counter">#2b5a83</color>
+    <color name="booking_background">#1D212A</color>
+    <color name="line_color">#343840</color>
+</resources>

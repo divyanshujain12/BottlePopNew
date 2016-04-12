@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/style_color_primary_dark">
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/vNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/transparent"
+        app:itemIconTint="#8b8b8b"
+        app:itemTextColor="#666666">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="HOME"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Bold.otf"  />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55ffffff" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="ABOUT THE APP"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Bold.otf"  />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55ffffff" />
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtHowItWork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="HOW IT WORKS"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Bold.otf"  />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55ffffff" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtConcierge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="CONCIERGE"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Bold.otf"  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55ffffff" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtVipMembers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="VIP MEMBERS"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Bold.otf"  />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55ffffff" />
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtRequestGuestList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="GUESTLIST"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Bold.otf"  />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55ffffff" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtLeaderBoard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="LEADERBOARD"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Bold.otf" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55ffffff" />
+        </LinearLayout>
+    </android.support.design.widget.NavigationView>
+
+    <ImageView
+        android:id="@+id/imgAppIcon"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/app_icon" />
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/booking_background"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/feedImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/loading_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtCatName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MADDOX"
+                android:textColor="@color/style_color_primary_dark"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                pixlui:typeface="Titillium-Bold.otf" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="43 Thurloe Street, London, SW7 2LQ"
+                android:textColor="@android:color/white"
+                pixlui:typeface="Titillium-Regular.otf" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar"
+                style="@style/foodRatingBar"
+                android:numStars="5"
+                android:isIndicator="true"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="£500"
+                android:textColor="@color/style_color_primary_dark"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                pixlui:typeface="Titillium-Bold.otf" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Table Min"
+                android:textColor="@android:color/white"
+                pixlui:typeface="Titillium-Regular.otf" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

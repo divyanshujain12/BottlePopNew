@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/txtLeaderBoardDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:typeface="serif"
+        android:text="See how you compare \n to the rest of world when it comes to \n raising money"
+        android:textColor="@color/style_color_primary_dark"
+        pixlui:typeface="Titillium-Bold.otf"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="bottom">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgFirstCircle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    app:civ_border_color="#ffd73a"
+                    app:civ_border_width="2dp" />
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:id="@+id/txtFirstCircle"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:typeface="serif"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/filled_circle_light_grey"
+                    android:gravity="center"
+                    android:text="2"
+                    pixlui:typeface="Titillium-Regular.otf"
+                    android:textColor="@android:color/white" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgSecondCircle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="14dp"
+                    app:civ_border_color="#ffd73a"
+                    app:civ_border_width="3dp" />
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:id="@+id/txtSecondCircle"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:typeface="serif"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/filled_circle"
+                    android:gravity="center"
+                    android:text="1"
+                    pixlui:typeface="Titillium-Regular.otf"
+                    android:textColor="@android:color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.2"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgThirdCircle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:contentDescription="third"
+                    app:civ_border_color="#ffd73a"
+                    app:civ_border_width="2dp" />
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:id="@+id/txtThirdCircle"
+                    android:layout_width="35dp"
+                    android:typeface="serif"
+                    android:layout_height="35dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/filled_circle_dark_yellow"
+                    android:gravity="center"
+                    android:text="3"
+                    pixlui:typeface="Titillium-Regular.otf"
+                    android:textColor="@android:color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtNameFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ravish"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:typeface="serif"
+                pixlui:typeface="Titillium-Regular.otf" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtAmountFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="$91.79"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                pixlui:typeface="Titillium-Bold.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtNameSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ravish"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                pixlui:typeface="Titillium-Regular.otf" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtAmountSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="$91.79"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Bold.otf"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtNameThird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ravish"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                pixlui:typeface="Titillium-Regular.otf"
+                />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtAmountThird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="$91.79"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+
+                pixlui:typeface="Titillium-Bold.otf"  />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

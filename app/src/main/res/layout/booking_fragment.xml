@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/booking_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:id="@+id/txtCatName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MADDOX"
+                    android:textColor="@color/style_color_primary_dark"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    pixlui:typeface="Titillium-Bold.otf" />
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="43 Thurloe Street, London, SW7 2LQ"
+                    android:textColor="@android:color/white"
+                    pixlui:typeface="Titillium-Regular.otf" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar"
+                    style="@style/foodRatingBar"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:id="@+id/txtPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="£500"
+                    android:textColor="@color/style_color_primary_dark"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    pixlui:typeface="Titillium-Bold.otf" />
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Table Min"
+                    android:textColor="@android:color/white"
+                    pixlui:typeface="Titillium-Regular.otf" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/booking_calendar" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Date &amp; Time"
+                android:textColor="@color/style_color_primary_dark"
+                android:textSize="18sp"
+                pixlui:typeface="Titillium-Bold.otf" />
+        </LinearLayout>
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/txtDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Wednesday - Saturday, 10pm - 4am"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:typeface="serif"
+            pixlui:typeface="Titillium-Regular.otf" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/btnBookNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/style_color_primary_dark"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:paddingTop="8dp"
+                android:text="Book Now!"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:textSize="16sp"
+                pixlui:typeface="Titillium-Bold.otf" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/booking_info" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Details"
+                android:textColor="@color/style_color_primary_dark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                pixlui:typeface="Titillium-Bold.otf" />
+        </LinearLayout>
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/txtDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="Anyone just can't stumble into this Mayfair club, this spot has a strict members only."
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:typeface="serif"
+            pixlui:typeface="Titillium-Regular.otf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/booking_pin" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Location"
+                android:textColor="@color/style_color_primary_dark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                pixlui:typeface="Titillium-Bold.otf" />
+        </LinearLayout>
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/txtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="3-5 Mill Street, London, W1S 2AU"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:typeface="serif"
+            pixlui:typeface="Titillium-Bold.otf" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:padding="10dp">
+
+            <fragment
+                android:id="@+id/mapFragment"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

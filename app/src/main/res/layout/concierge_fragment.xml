@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/booking_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:padding="7dp"
+            android:src="@drawable/con_woman31" />
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/concierge_text"
+            android:layout_marginTop="30dp"
+            android:typeface="serif"
+            pixlui:typeface="Titillium-Regular.otf"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="@color/style_color_primary_dark"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imgCall"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="7dp"
+            android:src="@drawable/con_phone369" />
+
+        <ImageView
+            android:id="@+id/imgTxt"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:padding="7dp"
+            android:src="@drawable/con_chat120" />
+
+        <ImageView
+            android:id="@+id/imgMail"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:padding="7dp"
+            android:src="@drawable/con_envelope4" />
+    </RelativeLayout>
+</LinearLayout>

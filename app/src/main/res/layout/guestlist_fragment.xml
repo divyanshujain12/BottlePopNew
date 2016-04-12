@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/booking_background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="To invite some guests \nPlease, Provide some information"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FULL NAME -"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    pixlui:typeface="Titillium-Bold.otf" />
+
+                <com.neopixl.pixlui.components.edittext.EditText
+                    android:id="@+id/edtFullName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="20"
+                    android:hint="Enter your name"
+                    android:padding="8dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#55ffffff"
+                    pixlui:typeface="Titillium-Regular.otf" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#22ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PHONE -"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    pixlui:typeface="Titillium-Bold.otf" />
+
+                <Spinner
+                    android:id="@+id/countryCodeSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <com.neopixl.pixlui.components.edittext.EditText
+                    android:id="@+id/edtPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:ems="20"
+                    android:hint="Enter your number"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="8dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#55ffffff"
+                    android:typeface="serif"
+                    pixlui:typeface="Titillium-Regular.otf" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#22ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMAIL -"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    pixlui:typeface="Titillium-Bold.otf" />
+
+                <com.neopixl.pixlui.components.edittext.EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="20"
+                    android:hint="Enter your Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="8dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#55ffffff"
+                    pixlui:typeface="Titillium-Regular.otf" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#22ffffff" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DATE -"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    pixlui:typeface="Titillium-Bold.otf" />
+
+                <com.neopixl.pixlui.components.edittext.EditText
+                    android:id="@+id/edtTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="20"
+                    android:hint="EnterDate"
+                    android:padding="8dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#55ffffff"
+                    android:typeface="serif"
+                    pixlui:typeface="Titillium-Regular.otf" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#22ffffff" />
+            <LinearLayout
+                android:id="@+id/clubLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <com.neopixl.pixlui.components.textview.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CLUB NAME -"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        pixlui:typeface="Titillium-Bold.otf" />
+
+                    <com.neopixl.pixlui.components.edittext.EditText
+                        android:id="@+id/edtClubName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@android:color/transparent"
+                        android:ems="20"
+                        android:hint="Enter your choice of club"
+                        android:inputType="textEmailAddress"
+                        android:padding="8dp"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="#55ffffff"
+                        pixlui:typeface="Titillium-Regular.otf" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#22ffffff" />
+            </LinearLayout>
+
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NUMBER OF GUESTS"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                pixlui:typeface="Titillium-Regular.otf" />
+
+            <LinearLayout
+                android:id="@+id/attendingPeopleCountLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp">
+
+
+
+                <LinearLayout
+                    android:id="@+id/manNumbersLL"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/booking_man432" />
+
+                    <com.neopixl.pixlui.components.textview.TextView
+                        android:id="@+id/manCount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:padding="13dp"
+                        android:text="0"
+                        android:textSize="18sp"
+                        pixlui:typeface="Titillium-Regular.otf" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/booking_woman113" />
+
+                        <com.neopixl.pixlui.components.textview.TextView
+                            android:id="@+id/womanCount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="7dp"
+                            android:background="@android:color/white"
+                            android:gravity="center"
+                            android:padding="13dp"
+                            android:text="0"
+                            android:textSize="18sp"
+                            pixlui:typeface="Titillium-Regular.otf" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/txtConfirmBooking"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/style_color_primary_dark"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="COMPLETE REQUEST"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        pixlui:typeface="Titillium-Bold.otf" />
+</RelativeLayout>

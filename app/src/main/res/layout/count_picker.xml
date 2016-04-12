@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="1000dp"
+    android:minHeight="200dp"
+    android:padding="10dp"
+    android:background="@drawable/top_rounded_corners"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="9"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Men Count"
+
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            pixlui:typeface="Titillium-Regular.otf"/>
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/manWheel"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Women Count"
+
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            pixlui:typeface="Titillium-Regular.otf"/>
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/womanWheel"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/txtOK"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/style_color_primary_dark"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:text="OK"
+        pixlui:typeface="Titillium-Bold.otf"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

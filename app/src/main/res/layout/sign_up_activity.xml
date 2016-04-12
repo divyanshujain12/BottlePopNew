@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/booking_background"
+    android:orientation="vertical">
+
+    <com.elgroup.lenovo.bottlepop.HeaderView
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:headerText="REGISTER"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerView"
+        android:background="@color/booking_background"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USERNAME"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Regular.otf" />
+
+            <com.neopixl.pixlui.components.edittext.EditText
+                android:id="@+id/edtFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:ems="20"
+                android:hint="UserName"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="#55ffffff"
+                pixlui:typeface="Titillium-Bold.otf" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PASSWORD"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Regular.otf" />
+
+            <com.neopixl.pixlui.components.edittext.EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:ems="20"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="#55ffffff"
+                pixlui:typeface="Titillium-Bold.otf" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHONE -"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Bold.otf" />
+
+            <Spinner
+                android:id="@+id/countryCodeSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" />
+
+            <com.neopixl.pixlui.components.edittext.EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:ems="20"
+                android:hint="Enter your number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="#55ffffff"
+                android:typeface="serif"
+                pixlui:typeface="Titillium-Regular.otf" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL -"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                pixlui:typeface="Titillium-Bold.otf" />
+
+            <com.neopixl.pixlui.components.edittext.EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:ems="20"
+                android:hint="Enter your Email"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="#55ffffff"
+                pixlui:typeface="Titillium-Regular.otf" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="4"
+                android:background="#ffffff" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="OR"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                pixlui:typeface="Titillium-Regular.otf" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="4"
+                android:background="#ffffff" />
+
+        </LinearLayout>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/loginButtonFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:background="#3b5998"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:scaleType="centerInside"
+            android:text="FACEBOOK LOGIN"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:id="@+id/signUpTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@color/style_color_primary_dark"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:text="SIGN UP"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        pixlui:typeface="Titillium-Bold.otf" />
+
+</RelativeLayout>

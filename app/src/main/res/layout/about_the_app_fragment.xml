@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/booking_background"
+    android:padding="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+
+        android:layout_height="wrap_content">
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/about_app"
+            android:layout_marginTop="30dp"
+            android:typeface="serif"
+            android:textColor="@android:color/white"
+            pixlui:typeface="Titillium-Regular.otf"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/about_logo" />
+    </RelativeLayout>
+
+</RelativeLayout>
